@@ -49,7 +49,7 @@ const { toplist, songList, addSongList } = topList();
   margin: 0 10px;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+  box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
   background: #fff;
   .toplist_name {
     display: block;

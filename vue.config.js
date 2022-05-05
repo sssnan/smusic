@@ -9,7 +9,7 @@ module.exports = {
   // devServer: {
   // proxy: "https://netease-cloud-music-api-phi-silk.vercel.app/",
   // },
-  publicPath: './',
+  publicPath: '',
   // 自动引入element-plus组件
   configureWebpack: {
     plugins: [
