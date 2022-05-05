@@ -164,7 +164,7 @@ export default {
           height: 250px;
           border-radius: 12px;
           overflow: hidden;
-          box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+          box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
           flex-shrink: 0;
 
           &::after {
@@ -184,7 +184,7 @@ export default {
           margin-left: 20px;
           background: #fff;
           border-radius: 12px;
-          box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+          box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
 
           .cover-header {
             display: flex;
@@ -400,7 +400,7 @@ export default {
             height: 40px;
             margin-left: 10px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgb(0 0 0 / 12%);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
           }
 
           .item-title {
