@@ -1,10 +1,9 @@
 import axios from 'axios';
 
 const requests = axios.create({
-  // baseURL: "http://101.35.235.36:3000/",
-  baseURL: "http://localhost:3000/",
-  // baseURL: "https://netease-cloud-music-api-phi-silk.vercel.app/",
-
+  // baseURL: "http://localhost:3000/",
+  baseURL: "https://netease-cloud-music-api-phi-silk.vercel.app/",
+  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
   // 代表请求超时的时间
   timeout: 6000,
 });
